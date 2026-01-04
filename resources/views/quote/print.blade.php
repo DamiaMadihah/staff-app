@@ -74,7 +74,7 @@
                                 <th class="text-center px-3 border w-2/12">Saiz</th>
                                 <th class="text-center px-3 border w-2/12">Kuantiti</th>
                                 <th class="text-center px-3 border w-2/12">Harga Seunit</th>
-                                <th class="text-right px-3 border w-2/12">Jumlah (RM)</th>
+                                <th class="text-right px-3 border w-2/12">Jumlah. (RM)</th>
                             </tr>
                             @foreach ($quote->quote_item as $item)
                                 <tr>
