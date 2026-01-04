@@ -38,7 +38,7 @@
                                 <div class="text-2xl font-bold uppercase">{{ $quote->branch->name }}</div>
                                 <div class="text-base font-bold uppercase">LOT 15, BANGUNAN PKNK KAWASAN PERINDUSTRIAN RINGAN GURUN, KILANG KETAPAN, 08300 GURUN, KEDAH</div>
                                 <div class="text-base font-bold uppercase">Tel:
-                                    
+
                                     013-530 3135
                                 </div>
                                 <div class="text-base font-bold">EMEL: admin@inspirazs.com.my</div>
@@ -125,8 +125,8 @@
                     <div class="text-center mt-10">
                         <div class="text-sm">
                             <div class="mt-5">{{ __('Nombor Akaun:') }}</div>
-                            {{ $quote->branch->bank_account_1 }} 
-                            
+                            {{ $quote->branch->bank_account_1 }}
+
                         </div>
                         &nbsp;
                         <div class="text-sm">
@@ -157,6 +157,10 @@
                             <label class="inline-flex items-center">
                                 <input name="cara_payment" type="radio" value="E-PEROLEHAN" class="form-radio h-4 w-4 text-blue-600">
                                 <span class="ml-2 text-sm">E-PEROLEHAN</span>
+                            </label>
+                            <label class="inline-flex items-center">
+                                <input name="cara_payment" type="radio" value="LO" class="form-radio h-4 w-4 text-blue-600">
+                                <span class="ml-2 text-sm">LO</span>
                             </label>
                         </div>
                         <div class="text-xs text-gray-500 mt-1">Pilih salah satu cara pembayaran</div>
